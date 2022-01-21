@@ -30,4 +30,12 @@ class RegisterUserCommand implements UserCommandInterface
     {
         return $this->user;
     }
+    /**
+     * @return User
+     */
+    public function getyser(): User
+    {
+        return $this->user;
+    }
+
 }
